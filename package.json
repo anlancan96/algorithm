@@ -1,0 +1,15 @@
+{
+  "name": "algorithm",
+  "version": "1.0.0",
+  "description": "\"smoker\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
