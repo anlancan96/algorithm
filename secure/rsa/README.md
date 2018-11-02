@@ -3,8 +3,7 @@ RSA là một hệ mã hóa bất đối xứng được phát triển bởi Ron
 
 ### Sinh khoá
 Mấu chốt của việc cơ bản trong việc sinh khoá RSA là tìm ra số tự nhiên e, d, n sao cho:
-```    m^(ed) ≡ m mod n
-```
+``` m^(ed) ≡ m mod n ```
 Note: d cần phải được bảo mật sao cho mặc dù biết e, n m cũng không thể tìm ra được d
 Khoá RSA được tạo ra như sau:
 * Chọn 2 số nguyên tố p và q
@@ -13,7 +12,7 @@ Khoá RSA được tạo ra như sau:
 * Chọn số tự nhiên e trong khoảng (1, λ(n)) sao cho UCLN(e, λ(n)) = 1,tức là e và λ(n) nguyên tố cùng nhau.
 * Tính d sao cho d ≡ 1/e (mod λ(n)) hay d * e ≡ 1 (mod λ(n))
 ### Mã hoá
-mã hóa với public key (n, e) và giải mã với private key (n, d).
+Mã hóa với public key (n, e) và giải mã với private key (n, d).
 
 Nếu chúng ta có bản rõ M, chúng ta cần chuyển nó thành một số tự nhiên m trong khoảng (0, n) sao cho m, n nguyên tố cùng nhau. Việc này rất dễ dàng thực hiện bằng cách thêm một các kỹ thuật padding. Tiếp theo, chúng ta sẽ má hóa m, thành c như sau:
 Alice gửi public key(n, e) cho Bob và giữ private key (n, d). Bob muốn gửi bản rõ M cho Alice
