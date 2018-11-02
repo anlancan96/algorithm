@@ -1,6 +1,6 @@
 ## Optimal Asymmetric Encryption Padding 
-### Diagram of OAEP
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Oaep-diagram-20080305.png/250px-Oaep-diagram-20080305.png" style="float: right;"/>
+### Diagram of OAEP
 In the diagram:
 * n is the number of bits in the RSA moduls
 * k0 vs k1 are integers fixed by the protocol 
