@@ -1,5 +1,4 @@
 ## Optimal Asymmetric Encryption Padding 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Oaep-diagram-20080305.png/250px-Oaep-diagram-20080305.png" style="float: right;"/>
 ### Diagram of OAEP
 In the diagram:
 * n is the number of bits in the RSA moduls
@@ -19,3 +18,4 @@ In the diagram:
 * Recover the random string as r = Y ⊕ H(X)
 * Recover the message as m00..0 = X ⊕ G(r)
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Oaep-diagram-20080305.png/250px-Oaep-diagram-20080305.png" style="float: right;"/>
